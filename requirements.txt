@@ -51,6 +51,7 @@ GitPython==3.1.44
 google-auth==2.38.0
 googleapis-common-protos==1.69.2
 gptcache==0.1.44
+greenlet==3.2.1
 grpcio==1.71.0
 h11==0.14.0
 h2==4.2.0
@@ -155,6 +156,7 @@ PyPika==0.48.9
 pyproject_hooks==1.2.0
 pyright==1.1.400
 pysbd==0.3.4
+pysqlite3-binary==0.5.4
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 pytube==15.0.0
@@ -201,6 +203,7 @@ urllib3==2.3.0
 uv==0.6.8
 uvicorn==0.34.0
 uvloop==0.21.0
+watchdog==6.0.0
 watchfiles==1.0.4
 wcwidth==0.2.13
 websocket-client==1.8.0
