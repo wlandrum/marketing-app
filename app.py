@@ -9,6 +9,9 @@ load_dotenv()
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
 serper_api_key = os.getenv("SERPER_API_KEY")
+# Force Chroma to use in-memory mode (avoiding sqlite3)
+os.environ["PERSIST_DIRECTORY"] = "none"
+
 
 st.set_page_config(page_title="Enhanced Music Marketing Planner", layout="centered")
 
